@@ -39,5 +39,10 @@ $(document).ready(function() {
 // jquery end
 </script>
 
-</head>
-<body>
+{% include 'includes/navbar.html' %}
+
+  {% block content %}
+
+  {% endblock %}
+
+{% include 'includes/footer.html' %}
